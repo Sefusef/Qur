@@ -9,8 +9,8 @@ android {
         applicationId "com.quran.quranayatwidget"
         minSdk 29
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 1.1
+        versionName "1.1"
     }
 
     buildTypes {

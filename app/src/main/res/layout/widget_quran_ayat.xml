@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="8dp"
+android:background="#00000000">
+<TextView
+android:id="@+id/widget_time"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:layout_alignParentRight="true"
+android:layout_margin="4dp"
+android:text="HH:MM"
+android:textColor="#FFFFFF"
+android:textSize="14sp" />
+
+<TextView
+android:id="@+id/ayat_arabic"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/widget_time"
+android:layout_marginTop="5dp"
+android:textAlignment="viewEnd"
+android:text="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
+android:textColor="#FFFFFF"
+android:textSize="20sp"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/ayat_translation"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/ayat_arabic"
+android:text="In the name of Allah, the Most Gracious, the Most Merciful."
+android:textColor="#CCCCCC"
+android:textSize="14sp"
+android:maxLines="3"
+android:ellipsize="end" />
+
+<TextView
+android:id="@+id/ayat_reference"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/ayat_translation"
+android:text="Surah Al-Fatiha (1:1)"
+android:textColor="#AAAAAA"
+android:textSize="12sp"
+android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

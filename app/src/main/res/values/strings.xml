@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">Quran Ayat Widget</string>
+	<string name="widget_description">Displays a daily changing Quran Ayat and translation with current time.</string>
+</resources>

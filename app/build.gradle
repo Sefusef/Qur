@@ -26,6 +26,9 @@ android {
 }
 
 dependencies {
-	// NOTE: CodeAssist does NOT support adding dependencies here, 
-	// use the library manager instead
+    implementation 'androidx.recyclerview:recyclerview:1.4.0'
+    implementation 'androidx.appcompat:appcompat:1.8.0'
+    implementation 'androidx.appcompat:appcompat-resources:1.8.0'
+    implementation 'androidx.viewpager2:viewpager2:1.1.0'
+    implementation 'com.google.android.material:material:1.14.0'
 }
